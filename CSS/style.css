@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+.topNav {
+    position: absolute;
+}
+
+.image {
+    background-image: url("../IMG/eberhard-grossgasteiger-TMHL7wald8I-unsplash.jpg");
+    height: 500px;
+    max-height: 100%;
+    width: 100%; 
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset -1px 2px 128px 101px rgba(26,26,26,1);
+    -moz-box-shadow: inset -1px 2px 128px 101px rgba(26,26,26,1);
+    box-shadow: inset -1px 2px 128px 101px rgba(26,26,26,1); 
+}
+
+ul {
+    margin-top: 25px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    font-family: 'Calistoga', cursive;
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+main h2 {
+    color: #ffffff;
+    margin-top: 35px;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 25px;
+}
+
+main h5 {
+    text-shadow: 3px 3px 6px #000000;
+}
+
+main p {
+    color: #ffffff;
+    font-family: 'Kalam', cursive; 
+    text-shadow: 3px 3px 6px #000000;
+}
+
+button {
+    border: none;
+    padding: 8px 25px;
+    background-color: #a30000;
+    color: #ffffff;
+    border-radius: 3px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.image2 {
+    background-image: url("../IMG/doran-lFQV2lt7qcw-unsplash.jpg");
+    width: 450px;
+    height: 650px;
+    max-height: 100%; 
+    width: 100%;
+    background-size: 100% 650px;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+    -webkit-box-shadow: inset 4px 47px 70px 70px rgba(26,26,26,1);
+    -moz-box-shadow: inset 4px 47px 70px 70px rgba(26,26,26,1);
+    box-shadow: inset 4px 47px 70px 70px rgba(26,26,26,1);
+}
+
+.image3 {
+    background-image: url("../IMG/max-nelson-KXkgOigCqj0-unsplash.jpg");
+    max-width: 100%;
+    height: 750px;
+    max-height: 100%; 
+    background-size: 100% 750px;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset -1px 200px 300px 143px rgba(26,26,26,1);
+    -moz-box-shadow: inset -1px 200px 300px 143px rgba(26,26,26,1);
+    box-shadow: inset -1px 200px 300px 143px rgba(26,26,26,1);
+    position: relative;
+    
+} 
+
+.posAb {
+    position: absolute;
+    margin-top: 100px;
+}
+
+.posAbLi {
+    color: #ffffff;
+}
+
+.posAbLi h5 {
+    width: 10px;
+    
+}
+
+.posAbLi p {
+    width: 150px;
+    
+}
+
+.services1 {
+    float: right;
+    margin-left: 220px;
+}
+
+.services2 {
+    float: right;
+}
+
+.services3 {
+    float: right;
+    margin-left: 30px;
+}
+
+.services4 {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.portfolio {
+    margin-bottom: 85px;
+    margin-top: 30px;
+}
+
+.portfolio h2 {
+    margin-top: 120px;
+}
+
+#portfolio {
+    margin-bottom: 45px;
+}
+
+.images {
+    margin-left: 15px;
+}
+
+.container {
+    width: 370px;
+}
+
+input {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-color: #4c4954;
+    border-radius: 5px;
+    width: 49%; 
+}
+
+::placeholder {
+    color: #ffffff; 
+}
+
+textarea {
+    background-color: #1a1a1a;
+    border-color: #4c4954;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 99%;
+    height: 180px;
+}
+
+#contact {
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+#map {
+    height: 500px;
+    width: 350px;
+    max-width: 100%; 
+    margin-bottom: 45px;
+    margin-left: 13px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .container-fluid {
+        width: 95%;
+    }
+
+    .services1 {
+        margin-right: 15px;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+
+    .services2 {
+        margin-top: 35px;
+    }
+
+    .services3 {
+        margin-right: 15px;
+    }
+
+    .posAb h2 {
+        margin-top: 120px;
+    }
+
+    .portfolio h2 {
+        margin-top: 180px;
+    }
+
+    .images_1 {
+        margin-left: 107px;
+    }
+    
+    .images_2 {
+        margin-left: 107px;
+    } 
+
+    #map {
+        margin-left: 0px;
+    }
+
+    #works {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .container-fluid {
+        width: 75%;
+    }
+
+    .posAb {
+        margin-top: 190px;
+        
+    }
+
+    .posAbLi {
+        padding: 65px;
+        
+    }
+
+    .posAbLi h5 {
+        width: 100%;
+    }
+
+    .posAbLi p {
+        width: 200px;
+        
+    }
+
+    .services1 {
+        float: right;
+        margin-left: 220px;
+    }
+    
+    .services2 {
+        float: right;
+    }
+    
+    .services3 {
+        float: right;
+        margin-left: 220px;
+        margin-right: 35px;
+    }
+    
+    .services4 {
+        float: right;
+    }
+
+    .container {
+        width: 550px;
+    }
+
+    .portfolio h2 {
+        margin-top: 280px;
+    } 
+
+    .images_1 {
+        margin-left: 0px;
+    }
+    
+    .images_2 {
+        margin-left: 0px;
+    }
+
+    #map {
+        width: 550px;
+        margin-left: 0px;
+    }
+    
+}
+
+@media only screen and (min-height: 1366px) {
+    .services4 {
+        float: none;
+    } 
+
+    .services3 {
+        margin-bottom: 85px;
+    }
+
+    .images_1 {
+        margin-left: 92px;
+    }
+
+    .images_2 {
+        margin-left: 92px;
+    }
+
+    .images_3 {
+        margin-left: 92px;
+    } 
+
+    .images_6 {
+        display: none;
+    }  
+}
